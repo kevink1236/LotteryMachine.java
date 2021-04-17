@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                font-family: "Courier New", Monospace;
+                background: rgb(170, 169, 169);
+            }
+            #tomyparty {
+                margin-bottom: 50px;
+                padding-bottom: 30px;
+                border-bottom: 2px solid rgb(170, 169, 169);
+            }
+            #Total { 
+                max-width: 50%;
+                min-width: 50%;
+                text-align: center;
+                margin: auto;
+                padding: 50px;
+                border: 5px inset rgb(153, 151, 153);
+                background: rgb(85, 135, 182);
+                overflow: hidden;
+            }
+            .detail {
+                text-align: center;
+            }
+            #header {
+                float: rigth;
+                width: 145%;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            #content {
+                float:right;
+                width: 50%;
+                margin: 10px;
+                
+            }
+            .place {
+                text-align: left;
+                font-size: 14px;
+            }
+            #lists {
+                width: 90%;
+            }
+            .time{
+                font-size: 14px;
+                text-align: left;
+            }
+            #timelist {
+                float: left;
+            }
+            .instruction {
+                border: 3px solid rgb(113, 112, 129);
+                width: 30%;
+                height: 10rem;
+                padding-left: 10px;
+                padding-bottom: 20px;
+                overflow: hidden;
+            }
+            .yo {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id = "Total">
+        <h1 id = "Title">You're invited!</h1>
+        <h2 id = "tomyparty">To My Party!</h2>
+        
+        <p class = "detail" id = "header">The details:</p>
+        <ul class = "detail" id = "content">
+            <li class = "yo">Hi, you are invited to Kevin's party!!!</li>
+            <li class = "yo">The place and the time are stated in the box on the left.</li>
+            <li class = "yo">You can bring up to 5 friends to the party!!!</li>
+            <li class = "yo">There are a lot of people coming to the party so get ready to experience the world's best party ever.</li>
+        </ul>
+        <div class = "instruction">
+        <h2 class = "place">Place:</h2> 
+        <ul>
+            <li class = "place" id = "lists">123 My Street Avenue</li>
+        </ul>
+        <h2 class = "time">Time: </h2>
+         <ul class = "time" id = "timelist">
+            <li>June 31th, 2021</li>
+        </ul>
+        </div>
+    </div>
+    </body>
+</html>
